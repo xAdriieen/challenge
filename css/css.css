@@ -1,0 +1,491 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+
+@font-face {
+  src: url("generica.ttf");
+  font-family: 'code'
+}
+
+@font-face {
+  src: url("morning.ttf");
+  font-family: 'morning'
+}
+
+@font-face {
+  src: url("webo.ttf");
+  font-family: 'webo'
+}
+
+/***********************************************************************************************
+************************************************************************************************
+                                    section1
+************************************************************************************************
+***********************************************************************************************/
+
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('../img/accueil.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 img {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  width: 50px;
+}
+
+.section1 h2 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px;
+  color: #eeeeee;
+  font-family: code;
+}
+
+.section1 .user {
+  display: inline-block;
+  float: right;
+  color: #eeeeee;
+  font-size: 18px;
+  margin-top: 40px;
+  font-family: webo;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.section1 .title {
+  margin: 0;
+  font-family: webo;
+  font-size: 40px;
+  color:  #eeeeee;
+  margin-top: 40vh;
+}
+
+.section1 .smalltitle {
+  font-size: 20px;
+  color: #eeeeee;
+  font-family: serif;
+  font-weight: bold;
+}
+
+
+.subscribe {
+  position: relative;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  font-family: webo;
+  font-size: 17px;
+  background-color: #eeeeee;
+  color: #7E7EAF;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+}
+
+.middle {
+  display: block;
+}
+
+
+
+/***********************************************************************************************
+************************************************************************************************
+                                    section2
+************************************************************************************************
+***********************************************************************************************/
+
+
+
+.section2 {
+  position: absolute;
+  margin-top: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+
+.block-content {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  border-bottom: 2px solid #d4d4d4;
+}
+
+.blocks {
+  float: left;
+  margin-left: 0.2%;
+  width: 33%;
+  height: 70%;
+  text-align: center;
+  background-color: white;
+  margin-top: 3%;
+}
+
+.blocks p {
+  font-size: 20px;
+  color: #454545;
+  font-family: webo;
+}
+
+.blocks h4 {
+  color: #606060;
+  font-family: webo;
+}
+
+
+.blocks img {
+  width: 17%;
+  margin-top: 7%;
+}
+
+
+.block2 {
+  border-left: 2px solid #d4d4d4;
+  border-right: 2px solid #d4d4d4;
+}
+
+
+
+
+
+
+
+.section2 .content2 {
+  width: 100%;
+  height: 50%;
+  background-color: #f6f6f6;
+  text-align: center;
+  position: absolute;
+}
+
+
+.content2 .pricing {
+  margin-top: 10vh;
+  font-family: webo;
+  font-size: 23px;
+  color: #858585;
+}
+
+
+
+
+.dollar {
+  display: inline-block;
+}
+
+
+.dollars {
+  margin-top: 0px;
+  color: #7E7EAF;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: webo;
+}
+
+.dollars2 {
+  margin-left: 10px;
+  font-size: 25px;
+  color: #707070;
+  font-weight: bold;
+  font-family: webo;
+}
+
+.dollars2 span {
+  font-size: 15px;
+}
+
+/***********************************************************************************************
+************************************************************************************************
+                                    section3
+************************************************************************************************
+***********************************************************************************************/
+
+
+
+
+.section3 {
+  margin-top: 200vh;
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.section3 .header3 {
+  height: 16vh;
+  width: 100%;
+  background-color: #505050;
+}
+
+.section3 .header3 p {
+  font-family: webo;
+  position: absolute;
+  margin-top: 5vh;
+  left: 27vw;
+  font-size: 30px;
+  color: #dad8d8;
+}
+
+
+.section3 .divleft3 {
+  height: 84vh;
+  background-color: #7CD5EF;
+  width: 50%;
+  float: left;
+}
+
+
+.section3 img {
+  width: 35%;
+  left: 7vw;
+  bottom: 0;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+}
+
+
+.section3 .divright3 {
+  float: right;
+  width: 50%;
+  height: 84vh;
+  background-color: white;
+}
+
+.section3 .divright3 .text {
+  width: 300px;
+  font-family: webo;
+  color: #505050;
+  margin-left: 27vh;
+  margin-top: 20vh;
+}
+
+.section3 .divright3 .text h3 {
+  font-weight: bold;
+}
+
+/***********************************************************************************************
+************************************************************************************************
+                                    section4
+************************************************************************************************
+***********************************************************************************************/
+
+
+
+.section4 {
+  width: 100%;
+  height: 84vh;
+  background-color: black;
+  margin-top: 300vh;
+  position: absolute;
+  border-top: 2px solid #e4e4e4;
+}
+
+.section4 .divright4 {
+  float: right;
+  width: 50%;
+  height: 84vh;
+  background-color: #8080BE;
+}
+
+.section4 .divleft4 {
+  background-color: white;
+  width: 50%;
+  height: 84vh;
+  float: left;
+}
+
+
+.section4 img {
+  width: 35%;
+  right: 7vw;
+  bottom: -1vh;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+}
+
+.section4 .divleft4 .text {
+  width: 300px;
+  font-family: webo;
+  color: #505050;
+  margin-left: 27vh;
+  margin-top: 20vh;
+}
+
+.section4 .divleft4 .text h3 {
+  font-weight: bold;
+}
+
+
+/***********************************************************************************************
+************************************************************************************************
+                                    section5
+************************************************************************************************
+***********************************************************************************************/
+
+
+.section5 {
+  height: 84vh;
+  width: 100%;
+  margin-top: 384vh;
+  background-color: grey;
+  position: absolute;
+  border-top: 2px solid #e4e4e4;
+}
+
+
+.section5 .divleft5 {
+  height: 84vh;
+  background-color: #7CD5EF;
+  width: 50%;
+  float: left;
+}
+
+
+.section5 img {
+  width: 35%;
+  left: 7vw;
+  bottom: 0;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+}
+
+
+.section5 .divright5 {
+  float: right;
+  width: 50%;
+  height: 84vh;
+  background-color: white;
+}
+
+
+.section5 .divright5 .text {
+  width: 300px;
+  font-family: webo;
+  color: #505050;
+  margin-left: 27vh;
+  margin-top: 20vh;
+}
+
+.section5 .divright5 .text h3 {
+  font-weight: bold;
+}
+
+
+/***********************************************************************************************
+************************************************************************************************
+                                    section6
+************************************************************************************************
+***********************************************************************************************/
+
+
+
+
+.section6 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 468vh;
+  background-color: grey;
+  border-top: 2px solid #e4e4e4;
+}
+
+.section6 .top {
+  width: 100%;
+  height: 45vh;
+  background: white;
+}
+
+
+
+.section6 .texttop {
+  margin-top: 7vh;
+  position: absolute;
+  left: 32vw;
+}
+
+.section6 .texttop p {
+  font-size: 30px;
+  font-family: webo;
+  color: #606060;
+}
+
+.section6 .texttop a {
+  text-decoration: none;
+  color: #eeeeee;
+  padding: 10px 30px 10px 30px;
+  background-color: #00AF87;
+  border-radius: 5px;
+  font-family: webo;
+  font-weight: bold;
+}
+
+
+.section6 .bottom {
+  width: 100%;
+  height: 55vh;
+  background: #303030;
+
+}
+
+.section6 .bottom .lists {
+  width: 70%;
+  height: 31vh;
+  left: 11vw;
+  margin-top: 8vh;
+  position: absolute;
+  text-align: left;
+}
+
+.list1, .list2, .list3 {
+  list-style-type: none;
+  float: left;
+  margin-left: 10vw;
+  font-family: webo;
+  font-weight: bold;
+}
+
+li {
+  margin-top: 2vh;
+  color: #bfbbbb;
+}
+
+.list3 li {
+  color: #6C7470;
+}
+
+.tete {
+  color: #6C7470;
+  font-size: 21px;
+}
+
+
+
+.lasttext {
+  position: absolute;
+  bottom: 5px;
+  left: 22vw;
+}
+
+.lasttext p {
+  color: #b6b6b6;
+  float: left;
+}
+.lasttext img {
+  margin-top: 15px;
+  float: right;
+}
